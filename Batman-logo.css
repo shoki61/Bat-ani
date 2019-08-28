@@ -1,0 +1,501 @@
+body{
+    background-color: #110422;
+}
+.ana-div{
+    display: flex;
+    justify-content:  space-around;
+    width: 1150px;
+    margin-left: 100px;
+    height: 100%;
+    animation-name: şehir;
+    position: absolute;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+}
+@keyframes şehir {
+    from{top: -400px;}
+    to{top:40px}
+    }
+.evin-tepesi{
+    margin-bottom: 70px;
+    width: 150px;
+    height: 150px;
+    background-color: darkgray;
+    border-radius: 2px;
+}
+.sokak{
+    position: relative;
+    left: 100%;
+    width: 60px;
+    height: 120px;
+    border-top: 15px solid transparent;
+    border-left: 70px solid #230459;
+    border-bottom: 15px solid transparent;
+    display: flex;
+    justify-content:space-between;
+}
+.sokak-sağ{
+    position: relative;
+    right:87%;
+    width: 60px;
+    height: 120px;
+    border-top: 15px solid transparent;
+    border-right: 70px solid #230459;
+    border-bottom: 15px solid transparent;
+    display: flex;
+    justify-content: space-between;
+}
+.pencere-div{
+    position: relative;
+    left: -65px;
+}
+.pencere-div1{
+    position: relative;
+    left: 30px;
+}
+.pencere{
+    top: 1px;
+    left: 10px;
+    width: 5px;
+    height: 10px;
+    margin-bottom: 15px;
+    position: relative;
+    border-top: 1px solid transparent;
+    border-left: 7px solid #ffe061;
+    border-bottom: 1px solid transparent;
+}
+.pencere1{
+    position: relative;
+    top: 4px;
+    left: -10px;
+    margin-bottom: 14.5px;
+    margin-left: 25px;
+    width:4px;
+    height:9px;
+    border-top: 1px solid transparent;
+    border-left: 6px solid #ffe061;
+    border-bottom: 1px solid transparent;
+}
+.pencere2{
+    position: relative;
+    top: 7px;
+    left: -27px;
+    margin-bottom: 14px;
+    margin-left: 22px;
+    width:3px;
+    height: 8px;
+    border-top: 1px solid transparent;
+    border-left: 5px solid #ffe061;
+    border-bottom: 1px solid transparent;
+}
+.pencere3{
+    position: relative;
+    top: 10px;
+    left: -35px;
+    margin-bottom: 13.5px;
+    margin-left: 12px;
+    width: 2px;
+    height: 7px;
+    border-top: 1px solid transparent;
+    border-left: 4px solid #ffe061;
+    border-bottom: 1px solid transparent;
+}
+.pencere-sağ {
+    top: 1px;
+    left: -8px;
+    width: 5px;
+    height: 10px;
+    margin-bottom: 15px;
+    position: relative;
+    border-top: 1px solid transparent;
+    border-right: 7px solid #ffe061;
+    border-bottom: 1px solid transparent;
+}
+.pencere-sağ1{
+    position: relative;
+    top: 4px;
+    left: -13px;
+    margin-bottom: 14.5px;
+    margin-left: 25px;
+    width:4px;
+    height:9px;
+    border-top: 1px solid transparent;
+    border-right: 6px solid #ffe061;
+    border-bottom: 1px solid transparent;
+}
+.pencere-sağ2{
+    position: relative;
+    top: 7px;
+    left: 6px;
+    margin-bottom: 14.3px;
+    margin-left: 22px;
+    width: 3px;
+    height: 8px;
+    border-top: 1px solid transparent;
+    border-right: 5px solid #ffe061;
+    border-bottom: 1px solid transparent;
+}
+.pencere-sağ3{
+    position: relative;
+    top: 10px;
+    left: 23px;
+    margin-bottom: 14px;
+    margin-left: 12px;
+    width: 2px;
+    height: 7px;
+    border-top: 1px solid transparent;
+    border-right: 4px solid #ffe061;
+    border-bottom: 1px solid transparent;
+}
+.depe{
+    position: relative;
+    top: -140px;
+    width: 125px;
+    height: 125px;
+    border-radius:3px;
+    margin: auto;
+    background-color: rgba(63, 63, 63, 0.96);
+}
+.jay{
+    top: 35px;
+    margin-left:25px;
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background-color: rgba(23, 23, 23, 0.87);
+}
+.yan{
+    width: 0;
+    left: 100%;
+    height: 85%;
+    position: relative;
+    border-top: 2px solid transparent;
+    border-left: 5px solid grey;
+    border-bottom: 2px solid transparent;
+}
+.jay-sağ{
+    top: 35px;
+    margin-left: 70px;
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background-color:  rgba(23, 23, 23, 0.87);
+}
+.yan1{
+    width: 0;
+    left: -5px;
+    height: 85%;
+    position: relative;
+    border-top: 2px solid transparent;
+    border-right: 5px solid grey;
+    border-bottom: 2px solid transparent;
+}
+.depo-div{
+    display: flex;
+    justify-content:center;
+}
+.depo_div{
+    top: 15px;
+    left: 30px;
+    position: relative;
+}
+.depo_div1{
+    top: 15px;
+    left:-30px;
+    position: relative;
+}
+.depo{
+    width: 10px;
+    height: 20px;
+    border-radius: 50px;
+    background-color: #c00000;
+    margin: 5px;
+    box-shadow: 2px 1px 10px 2px black;
+}
+.yol {
+    position: absolute;
+    top: -35px;
+    height: 1300px;
+    width: 175px;
+    background-color: #616f7f;
+    border-right:15px solid #6f2400;
+    border-left: 15px solid #6f2400;
+    display: flex;
+    justify-content: space-between;
+}
+.orta{
+    width: 30px;
+    height: 100%;
+    background-color: rgba(76, 191, 0, 0.83);
+    margin: auto;
+    border-right: 7px solid #6f2400;
+    border-left: 7px solid #6f2400;
+}
+.çizgi-div{
+    width: 15px;
+    height: 100%;
+    margin-left: 25px;
+}
+.çizgi-div1{
+    width: 15px;
+    height: 100%;
+    margin-right: 25px;
+}
+.çizgi{
+    width:6px;
+    height: 23px;
+    background-color: #b8b8b8;
+    margin-bottom: 40px;
+    margin-left: 3px;
+}
+.ışık{
+    width: 3px;
+    height: 50px;
+    border-top: 60px solid #dadada;
+    border-right: 2px solid transparent;
+    border-left: 2px solid transparent;
+    position: relative;
+    margin: auto auto 37px;
+}
+.dip{
+    width: 25px;
+    height: 10px;
+    border-radius:1px;
+    background-color: #dadada;
+    position: relative;
+    top: -10px;
+    left:-10px;
+}
+.üst{
+    position: relative;
+    top: -65px;
+    left: -2px;
+    width: 30px;
+    height: 4px;
+    background-color: #dadada;
+    transform: rotate(-20deg);
+    border-radius: 50% 50% 0 50%;
+}
+.üst-sol{
+    position: relative;
+    top: -69px;
+    left: -26px;
+    width: 30px;
+    height: 4px;
+    background-color: #dadada;
+    transform: rotate(20deg);
+    border-radius: 50% 50% 50% 0;
+}
+.lamba{
+    position: relative;
+    left: 80%;
+    width:20px;
+    height: 6px;
+    background-color: #d6d6d6;
+    border-radius: 50% 50% 10% 10%;
+    box-shadow: 0 5px 20px 5px  yellow;
+}
+.lamba-sol{
+    position: relative;
+    left: -13px;
+    width:20px;
+    height: 6px;
+    background-color: #d6d6d6;
+    border-radius: 50% 50% 10% 10%;
+    box-shadow: 0 5px 20px 5px  yellow;
+}
+.kare{
+    width: 200px;
+    height: 200px;
+    margin: auto auto auto 8px;
+    top: 350px;
+    position: fixed;
+}
+.kanat-sağ{
+    position: relative;
+    top: 30%;
+    left: 50%;
+    width: 60%;
+    height: 15%;
+    border-radius:0 100% 0 0 ;
+    background-color: black;
+    transform: rotate(-20deg);
+}
+.kanat-sol{
+    position: relative;
+    top: -60%;
+    left: -18%;
+    width: 60%;
+    height: 15%;
+    border-radius:100% 0 0 0 ;
+    background-color: black;
+    transform: rotate(20deg);
+}
+.sağ-1{
+    position: relative;
+    top: 23%;
+    left: 88%;
+    width:40%;
+    height: 30%;
+    border-radius: 100% 100% 70% 70%;
+    background-color: transparent;
+    box-shadow: 0 -20px 0  -5px black;
+    transform: rotate(-55deg);
+}
+.sol-1{
+    position: relative;
+    top: -66%;
+    left: -36%;
+    width:40%;
+    height: 30%;
+    border-radius: 100% 100% 70% 70%;
+    background-color: transparent;
+    box-shadow: 0 -20px 0  -5px black;
+    transform: rotate(55deg);
+}
+.sağ-2{
+    position: relative;
+    top: 19%;
+    left: 72%;
+    width: 30%;
+    height: 25%;
+    border-radius: 100% 100% 70% 70%;
+    background-color: transparent;
+    box-shadow: 0 -22px 0 -5px black;
+    transform: rotate(-45deg);
+}
+.sol-2{
+    position: relative;
+    top: -70.5%;
+    left: -10%;
+    width: 30%;
+    height: 25%;
+    border-radius: 100% 100% 70% 70%;
+    background-color: transparent;
+    box-shadow: 0 -22px 0 -5px black;
+    transform: rotate(45deg);
+}
+.sağ-3{
+    position: relative;
+    top: 3%;
+    left:53%;
+    width: 23%;
+    height: 20%;
+    border-radius:0 100% 0 0;
+    background-color: transparent;
+    box-shadow: 0 -15px 0 -5px black;
+    transform: rotate(-10deg);
+}
+.sol-3{
+    position: relative;
+    top: -88%;
+    left:16%;
+    width: 23%;
+    height: 20%;
+    border-radius:100% 0 0 0;
+    background-color: transparent;
+    box-shadow: 0 -15px 0 -5px black;
+    transform: rotate(10deg);
+}
+.kapat{
+    position: relative;
+    top:-139%;
+    left: 3%;
+    width: 86%;
+    height: 19%;
+    background-color: black;
+}
+.kapat1{
+    position: relative;
+    top:-140%;
+    left:17%;
+    width: 58%;
+    height: 10%;
+    background-color: black;
+}
+.kapat3{
+    position: relative;
+    top: -141.2%;
+    left:21%;
+    width: 50%;
+    height: 5%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.baş{
+    width: 15px;
+    height: 19px;
+    border-radius: 100% 100% 70% 70% ;
+    background-color: black;
+    position: relative;
+    left:45.63%;
+    top: -17px;
+    display: flex;
+    justify-content: space-between;
+}
+.sol-kulak{
+    width: 0;
+    height: 0;
+    position: relative;
+    top: -5px;
+    border-left: 1px solid transparent;
+    border-bottom: 15px solid black;
+    border-right: 5px solid transparent;
+}
+.sağ-kulak{
+    width: 0;
+    height: 0;
+    position: relative;
+    top: -5px;
+    border-right: 1px solid transparent;
+    border-bottom: 15px solid black;
+    border-left: 5px solid transparent;
+}
+.ayak-sol{
+    position: relative;
+    top: -6px;
+    width: 11px;
+    height: 35px;
+    background-color:black;
+    border-radius: 0 0 100% 100%;
+    transform: rotate(-5deg);
+    margin: 2px;
+}
+.ayak-sağ{
+    position: relative;
+    top: -6px;
+    width: 11px;
+    height: 35px;
+    background-color: black;
+    border-radius: 0 0 100% 100%;
+    transform: rotate(5deg);
+    margin: 2px;
+}
+.ayak1{
+    width: 7px;
+    height: 14px;
+    background-color: #1f1f1f;
+    border-radius: 80% 80% 100% 100%;
+    position: relative;
+    top: 65%;
+    left: 2px;
+    transform: rotate(-5deg);
+}
+.ayak2{
+    width: 7px;
+    height: 14px;
+    background-color: #1f1f1f;
+    border-radius: 80% 80% 100% 100%;
+    position: relative;
+    left: 2px;
+    top: 65%;
+    transform: rotate(5deg);
+}
+.kare:hover{
+    width: 210px;
+    height: 210px;
+}
+
+
